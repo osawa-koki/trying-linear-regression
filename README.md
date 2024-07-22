@@ -5,6 +5,8 @@
 [![ci](https://github.com/osawa-koki/trying-linear-regression/actions/workflows/ci.yml/badge.svg)](https://github.com/osawa-koki/trying-linear-regression/actions/workflows/ci.yml)
 [![cd](https://github.com/osawa-koki/trying-linear-regression/actions/workflows/cd.yml/badge.svg)](https://github.com/osawa-koki/trying-linear-regression/actions/workflows/cd.yml)
 
+![成果物](./fruit.gif)  
+
 ## 実行方法
 
 DevContainerに入り、以下のコマンドを実行します。  
