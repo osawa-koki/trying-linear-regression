@@ -14,4 +14,4 @@ chmod +x ./entrypoint.sh
 ./entrypoint.sh
 ```
 
-./public/ディレクトリ内に、クラスタリング結果の画像が出力されます。  
+`./public/`ディレクトリ内に、クラスタリング結果の画像が出力されます。  
