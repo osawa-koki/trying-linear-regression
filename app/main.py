@@ -1,5 +1,5 @@
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from sklearn.linear_model import LinearRegression
 
 # サンプルデータの生成
@@ -17,12 +17,12 @@ model.fit(X, y)
 y_pred = model.predict(X)
 
 # 結果の表示
-plt.scatter(X, y, color='blue', label='data points')
-plt.plot(X, y_pred, color='red', label='regression line')
-plt.xlabel('X')
-plt.ylabel('y')
+plt.scatter(X, y, color="blue", label="data points")
+plt.plot(X, y_pred, color="red", label="regression line")
+plt.xlabel("X")
+plt.ylabel("y")
 plt.legend()
-plt.savefig('./public/line-regression.png')
+plt.savefig("./public/line-regression.png")
 
 # 回帰係数と切片の表示
 print("regression coefficient (slope):", model.coef_)
